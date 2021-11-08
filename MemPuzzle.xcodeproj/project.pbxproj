@@ -13,6 +13,9 @@
 		9CA15E032739E497003C9ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA15E012739E497003C9ADF /* Main.storyboard */; };
 		9CA15E052739E498003C9ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA15E042739E498003C9ADF /* Assets.xcassets */; };
 		9CA15E082739E498003C9ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA15E062739E498003C9ADF /* LaunchScreen.storyboard */; };
+		9CA15E102739EBA9003C9ADF /* VC+ViewDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E0F2739EBA9003C9ADF /* VC+ViewDidLoad.swift */; };
+		9CA15E122739EBBA003C9ADF /* VC+GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E112739EBBA003C9ADF /* VC+GameMode.swift */; };
+		9CA15E142739EBC9003C9ADF /* VC+Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E132739EBC9003C9ADF /* VC+Reset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9CA15E042739E498003C9ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA15E072739E498003C9ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA15E092739E498003C9ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA15E0F2739EBA9003C9ADF /* VC+ViewDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+ViewDidLoad.swift"; sourceTree = "<group>"; };
+		9CA15E112739EBBA003C9ADF /* VC+GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+GameMode.swift"; sourceTree = "<group>"; };
+		9CA15E132739EBC9003C9ADF /* VC+Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+Reset.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				9CA15DFB2739E497003C9ADF /* AppDelegate.swift */,
 				9CA15DFD2739E497003C9ADF /* SceneDelegate.swift */,
 				9CA15DFF2739E497003C9ADF /* ViewController.swift */,
+				9CA15E0F2739EBA9003C9ADF /* VC+ViewDidLoad.swift */,
+				9CA15E112739EBBA003C9ADF /* VC+GameMode.swift */,
+				9CA15E132739EBC9003C9ADF /* VC+Reset.swift */,
 				9CA15E012739E497003C9ADF /* Main.storyboard */,
 				9CA15E042739E498003C9ADF /* Assets.xcassets */,
 				9CA15E062739E498003C9ADF /* LaunchScreen.storyboard */,
@@ -140,7 +149,10 @@
 			files = (
 				9CA15E002739E497003C9ADF /* ViewController.swift in Sources */,
 				9CA15DFC2739E497003C9ADF /* AppDelegate.swift in Sources */,
+				9CA15E142739EBC9003C9ADF /* VC+Reset.swift in Sources */,
 				9CA15DFE2739E497003C9ADF /* SceneDelegate.swift in Sources */,
+				9CA15E102739EBA9003C9ADF /* VC+ViewDidLoad.swift in Sources */,
+				9CA15E122739EBBA003C9ADF /* VC+GameMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,6 +26,9 @@
                                     <segment title="4x4"/>
                                     <segment title="6x6"/>
                                 </segments>
+                                <connections>
+                                    <action selector="GameMode:" destination="BYZ-38-t0r" eventType="valueChanged" id="0Og-EC-cE8"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnC-NS-Idz">
                                 <rect key="frame" x="20" y="104" width="93" height="31"/>
@@ -44,6 +47,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reset"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RNy-6J-iHb"/>
+                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="T1I-5b-abx">
                                 <rect key="frame" x="20" y="195.5" width="374" height="374"/>
@@ -97,6 +103,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="53Y-27-QYI" secondAttribute="trailing" constant="20" id="ndG-b7-bcn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="gameCollectionView" destination="T1I-5b-abx" id="uMP-NF-yUX"/>
+                        <outlet property="timerLabel" destination="xf6-I5-SjW" id="DHa-L8-06V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
