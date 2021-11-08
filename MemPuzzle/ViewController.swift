@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  MemPuzzle
-//
-//  Created by Bilal on 9.11.2021.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
