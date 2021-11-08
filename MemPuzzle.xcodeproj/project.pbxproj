@@ -16,6 +16,7 @@
 		9CA15E102739EBA9003C9ADF /* VC+ViewDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E0F2739EBA9003C9ADF /* VC+ViewDidLoad.swift */; };
 		9CA15E122739EBBA003C9ADF /* VC+GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E112739EBBA003C9ADF /* VC+GameMode.swift */; };
 		9CA15E142739EBC9003C9ADF /* VC+Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E132739EBC9003C9ADF /* VC+Reset.swift */; };
+		9CA15E162739EDAA003C9ADF /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E152739EDAA003C9ADF /* Tile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9CA15E0F2739EBA9003C9ADF /* VC+ViewDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+ViewDidLoad.swift"; sourceTree = "<group>"; };
 		9CA15E112739EBBA003C9ADF /* VC+GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+GameMode.swift"; sourceTree = "<group>"; };
 		9CA15E132739EBC9003C9ADF /* VC+Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+Reset.swift"; sourceTree = "<group>"; };
+		9CA15E152739EDAA003C9ADF /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				9CA15E0F2739EBA9003C9ADF /* VC+ViewDidLoad.swift */,
 				9CA15E112739EBBA003C9ADF /* VC+GameMode.swift */,
 				9CA15E132739EBC9003C9ADF /* VC+Reset.swift */,
+				9CA15E152739EDAA003C9ADF /* Tile.swift */,
 				9CA15E012739E497003C9ADF /* Main.storyboard */,
 				9CA15E042739E498003C9ADF /* Assets.xcassets */,
 				9CA15E062739E498003C9ADF /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				9CA15E002739E497003C9ADF /* ViewController.swift in Sources */,
 				9CA15DFC2739E497003C9ADF /* AppDelegate.swift in Sources */,
 				9CA15E142739EBC9003C9ADF /* VC+Reset.swift in Sources */,
+				9CA15E162739EDAA003C9ADF /* Tile.swift in Sources */,
 				9CA15DFE2739E497003C9ADF /* SceneDelegate.swift in Sources */,
 				9CA15E102739EBA9003C9ADF /* VC+ViewDidLoad.swift in Sources */,
 				9CA15E122739EBBA003C9ADF /* VC+GameMode.swift in Sources */,
