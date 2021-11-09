@@ -12,7 +12,7 @@ class Tile : UILabel
     
     func update ()
     {
-        self.font = .systemFont(ofSize: 50,
+        self.font = .systemFont(ofSize: 44,
                                 weight: UIFont.Weight.bold)
         self.textAlignment = .center
         //self.text = String(internalNum)
@@ -20,14 +20,39 @@ class Tile : UILabel
         switch status
         {
         case .FLIPPED:
-            self.text = String(internalNum)
-            self.backgroundColor = .systemOrange
+            
+            UIView.transition(with: self,
+                              duration: 0.5,
+                              options: UIView.AnimationOptions.transitionFlipFromLeft,
+                              animations:
+                                {
+                self.text = String(self.internalNum)
+                self.backgroundColor = .systemOrange
+            })
         case .FOUND:
-            self.text = "👍"
-            self.backgroundColor = .systemGreen
+            
+            UIView.transition(with: self,
+                              duration: 0.5,
+                              options: UIView.AnimationOptions.transitionFlipFromLeft,
+                              animations:
+                                {
+                self.text = "👍"
+                self.backgroundColor = .systemGreen
+            })
+            
+
         default:
-            self.text = "?"
-            self.backgroundColor = .darkGray
+            
+            UIView.transition(with: self,
+                              duration: 0.5,
+                              options: UIView.AnimationOptions.transitionFlipFromRight,
+                              animations:
+                                {
+                
+                self.text = "?"
+                self.backgroundColor = .darkGray
+            })
+            
         }
     }
 }

@@ -30,7 +30,7 @@ extension ViewController:UICollectionViewDelegate
             firstTile.status = TileStatus.FLIPPED
             firstTile.update()
             aTileIsFlipping = true
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1)
             {
                 self.aTileIsFlipping = false
             }
@@ -41,7 +41,7 @@ extension ViewController:UICollectionViewDelegate
             secondTile.status = TileStatus.FLIPPED
             secondTile.update()
             aTileIsFlipping = true
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1)
             {
                 self.aTileIsFlipping = false
                 self.Compare()
