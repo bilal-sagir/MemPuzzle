@@ -4,6 +4,8 @@ extension ViewController
 {
     @IBAction func reset(_ sender: UIButton?)
     {
+        timerLabel.backgroundColor = .darkGray
+        
         makeTiles()
         gameCollectionView.reloadData()
         layoutCollectionView()
