@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 extension ViewController
 {
@@ -6,5 +6,6 @@ extension ViewController
     {
         super.viewDidLoad()
         makeTiles()
+        layoutCollectionView()
     }
 }

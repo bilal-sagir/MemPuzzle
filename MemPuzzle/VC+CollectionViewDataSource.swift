@@ -1,6 +1,6 @@
 import UIKit
 
-extension ViewController:UICollectionViewDataSource
+extension ViewController : UICollectionViewDataSource
 {
     func collectionView(_ collectionView: UICollectionView,
                         numberOfItemsInSection section: Int) -> Int
@@ -16,8 +16,10 @@ extension ViewController:UICollectionViewDataSource
         let thisTile = tiles[indexPath.row]
         thisTile.frame = CGRect(x: 2,
                                 y: 2,
-                                width: cell.frame.size.width - 4,
-                                height: cell.frame.size.width - 4)
+                                width: cellWidth - 4,
+                                height: cellWidth - 4)
+        
+        thisTile.backgroundColor = .red
         
         if cell.subviews.count > 0
         {
