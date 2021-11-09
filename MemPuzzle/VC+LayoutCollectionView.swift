@@ -9,7 +9,7 @@ extension ViewController
         self.view.layoutIfNeeded()
         self.gameCollectionView.layoutIfNeeded()
         
-        cellWidth = gameCollectionView.bounds.width / CGFloat(4)
+        cellWidth = gameCollectionView.bounds.width / CGFloat(gameMode)
         
         let myLayout = UICollectionViewFlowLayout()
         myLayout.itemSize = CGSize(width: cellWidth,

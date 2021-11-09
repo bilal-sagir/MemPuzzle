@@ -6,7 +6,7 @@ extension ViewController
     {
         tiles = []
         
-        let tileCount = 16
+        let tileCount = gameMode * gameMode
         let halfOfTiles = tileCount / 2
         var counter = 0
         

@@ -18,6 +18,7 @@ class ViewController: UIViewController
     var gameTime : Int = 0
     var gameTimer : Timer!
 
+    var gameMode : Int = 4
 }
 
 
