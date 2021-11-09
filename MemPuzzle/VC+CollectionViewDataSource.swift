@@ -26,7 +26,7 @@ extension ViewController : UICollectionViewDataSource
             for any in cell.subviews{ any.removeFromSuperview() }
         }
         
-        
+        thisTile.update()
         cell.addSubview(thisTile)
         return cell
     }

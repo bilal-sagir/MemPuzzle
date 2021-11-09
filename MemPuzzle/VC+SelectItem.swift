@@ -7,7 +7,8 @@ extension ViewController:UICollectionViewDelegate
     {
         let cell = collectionView.cellForItem(at: indexPath)
         let tile = cell!.subviews[0] as! Tile
-        
-        print("number selected : \(tile.internalNum ?? 0 )")
+        tile.status = TileStatus.FLIPPED
+        tile.update()
+        //print("number selected : \(tile.internalNum ?? 0 )")
     }
 }
