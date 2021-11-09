@@ -8,6 +8,8 @@ class ViewController: UIViewController
     var tiles : Array<Tile> = []
     var cellWidth:CGFloat = 0.0
     
+    var firstTile : Tile!
+    var secondTile : Tile!
 
 }
 
