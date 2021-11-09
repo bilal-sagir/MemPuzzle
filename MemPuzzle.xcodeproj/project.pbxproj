@@ -20,6 +20,7 @@
 		9CA15E182739F0CF003C9ADF /* VC+MakeTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E172739F0CF003C9ADF /* VC+MakeTiles.swift */; };
 		9CA15E1A2739F46B003C9ADF /* VC+CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E192739F46B003C9ADF /* VC+CollectionViewDataSource.swift */; };
 		9CA15E1C2739FB02003C9ADF /* VC+LayoutCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E1B2739FB02003C9ADF /* VC+LayoutCollectionView.swift */; };
+		9CA15E1E2739FCD1003C9ADF /* VC+SelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E1D2739FCD1003C9ADF /* VC+SelectItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9CA15E172739F0CF003C9ADF /* VC+MakeTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+MakeTiles.swift"; sourceTree = "<group>"; };
 		9CA15E192739F46B003C9ADF /* VC+CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+CollectionViewDataSource.swift"; sourceTree = "<group>"; };
 		9CA15E1B2739FB02003C9ADF /* VC+LayoutCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+LayoutCollectionView.swift"; sourceTree = "<group>"; };
+		9CA15E1D2739FCD1003C9ADF /* VC+SelectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+SelectItem.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				9CA15DFF2739E497003C9ADF /* ViewController.swift */,
 				9CA15E0F2739EBA9003C9ADF /* VC+ViewDidLoad.swift */,
 				9CA15E1B2739FB02003C9ADF /* VC+LayoutCollectionView.swift */,
+				9CA15E1D2739FCD1003C9ADF /* VC+SelectItem.swift */,
 				9CA15E112739EBBA003C9ADF /* VC+GameMode.swift */,
 				9CA15E132739EBC9003C9ADF /* VC+Reset.swift */,
 				9CA15E152739EDAA003C9ADF /* Tile.swift */,
@@ -168,6 +171,7 @@
 				9CA15E162739EDAA003C9ADF /* Tile.swift in Sources */,
 				9CA15DFE2739E497003C9ADF /* SceneDelegate.swift in Sources */,
 				9CA15E102739EBA9003C9ADF /* VC+ViewDidLoad.swift in Sources */,
+				9CA15E1E2739FCD1003C9ADF /* VC+SelectItem.swift in Sources */,
 				9CA15E122739EBBA003C9ADF /* VC+GameMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

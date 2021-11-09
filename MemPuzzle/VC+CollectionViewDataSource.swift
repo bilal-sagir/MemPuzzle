@@ -19,7 +19,7 @@ extension ViewController : UICollectionViewDataSource
                                 width: cellWidth - 4,
                                 height: cellWidth - 4)
         
-        thisTile.backgroundColor = .red
+        //thisTile.backgroundColor = .red
         
         if cell.subviews.count > 0
         {

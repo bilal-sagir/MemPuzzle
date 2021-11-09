@@ -21,7 +21,7 @@ extension ViewController
             }
             
             tile.internalNum = counter
-            tile.update() // as a test
+            //tile.update() // as a test
             tiles.append(tile)
         }
         tiles.shuffle()
