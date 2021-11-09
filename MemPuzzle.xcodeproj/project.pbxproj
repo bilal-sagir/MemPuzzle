@@ -22,6 +22,8 @@
 		9CA15E1C2739FB02003C9ADF /* VC+LayoutCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E1B2739FB02003C9ADF /* VC+LayoutCollectionView.swift */; };
 		9CA15E1E2739FCD1003C9ADF /* VC+SelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E1D2739FCD1003C9ADF /* VC+SelectItem.swift */; };
 		9CA15E20273A19A0003C9ADF /* VC+TimerFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E1F273A19A0003C9ADF /* VC+TimerFunction.swift */; };
+		9CA15E22273A1CBB003C9ADF /* VC+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E21273A1CBB003C9ADF /* VC+Compare.swift */; };
+		9CA15E24273A1CCE003C9ADF /* VC+DidWeWon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E23273A1CCE003C9ADF /* VC+DidWeWon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		9CA15E1B2739FB02003C9ADF /* VC+LayoutCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+LayoutCollectionView.swift"; sourceTree = "<group>"; };
 		9CA15E1D2739FCD1003C9ADF /* VC+SelectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+SelectItem.swift"; sourceTree = "<group>"; };
 		9CA15E1F273A19A0003C9ADF /* VC+TimerFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+TimerFunction.swift"; sourceTree = "<group>"; };
+		9CA15E21273A1CBB003C9ADF /* VC+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+Compare.swift"; sourceTree = "<group>"; };
+		9CA15E23273A1CCE003C9ADF /* VC+DidWeWon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+DidWeWon.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				9CA15E1F273A19A0003C9ADF /* VC+TimerFunction.swift */,
 				9CA15E1B2739FB02003C9ADF /* VC+LayoutCollectionView.swift */,
 				9CA15E1D2739FCD1003C9ADF /* VC+SelectItem.swift */,
+				9CA15E21273A1CBB003C9ADF /* VC+Compare.swift */,
+				9CA15E23273A1CCE003C9ADF /* VC+DidWeWon.swift */,
 				9CA15E112739EBBA003C9ADF /* VC+GameMode.swift */,
 				9CA15E132739EBC9003C9ADF /* VC+Reset.swift */,
 				9CA15E152739EDAA003C9ADF /* Tile.swift */,
@@ -174,9 +180,11 @@
 				9CA15E162739EDAA003C9ADF /* Tile.swift in Sources */,
 				9CA15DFE2739E497003C9ADF /* SceneDelegate.swift in Sources */,
 				9CA15E20273A19A0003C9ADF /* VC+TimerFunction.swift in Sources */,
+				9CA15E22273A1CBB003C9ADF /* VC+Compare.swift in Sources */,
 				9CA15E102739EBA9003C9ADF /* VC+ViewDidLoad.swift in Sources */,
 				9CA15E1E2739FCD1003C9ADF /* VC+SelectItem.swift in Sources */,
 				9CA15E122739EBBA003C9ADF /* VC+GameMode.swift in Sources */,
+				9CA15E24273A1CCE003C9ADF /* VC+DidWeWon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
