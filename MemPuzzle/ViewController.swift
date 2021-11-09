@@ -14,6 +14,9 @@ class ViewController: UIViewController
     var secondTile : Tile!
     
     var aTileIsFlipping = false
+    
+    var gameTime : Int = 0
+    var gameTimer : Timer!
 
 }
 
