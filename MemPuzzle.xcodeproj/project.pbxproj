@@ -18,6 +18,7 @@
 		9CA15E142739EBC9003C9ADF /* VC+Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E132739EBC9003C9ADF /* VC+Reset.swift */; };
 		9CA15E162739EDAA003C9ADF /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E152739EDAA003C9ADF /* Tile.swift */; };
 		9CA15E182739F0CF003C9ADF /* VC+MakeTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E172739F0CF003C9ADF /* VC+MakeTiles.swift */; };
+		9CA15E1A2739F46B003C9ADF /* VC+CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA15E192739F46B003C9ADF /* VC+CollectionViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9CA15E132739EBC9003C9ADF /* VC+Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+Reset.swift"; sourceTree = "<group>"; };
 		9CA15E152739EDAA003C9ADF /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		9CA15E172739F0CF003C9ADF /* VC+MakeTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+MakeTiles.swift"; sourceTree = "<group>"; };
+		9CA15E192739F46B003C9ADF /* VC+CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+CollectionViewDataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				9CA15E132739EBC9003C9ADF /* VC+Reset.swift */,
 				9CA15E152739EDAA003C9ADF /* Tile.swift */,
 				9CA15E172739F0CF003C9ADF /* VC+MakeTiles.swift */,
+				9CA15E192739F46B003C9ADF /* VC+CollectionViewDataSource.swift */,
 				9CA15E012739E497003C9ADF /* Main.storyboard */,
 				9CA15E042739E498003C9ADF /* Assets.xcassets */,
 				9CA15E062739E498003C9ADF /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 			files = (
 				9CA15E182739F0CF003C9ADF /* VC+MakeTiles.swift in Sources */,
 				9CA15E002739E497003C9ADF /* ViewController.swift in Sources */,
+				9CA15E1A2739F46B003C9ADF /* VC+CollectionViewDataSource.swift in Sources */,
 				9CA15DFC2739E497003C9ADF /* AppDelegate.swift in Sources */,
 				9CA15E142739EBC9003C9ADF /* VC+Reset.swift in Sources */,
 				9CA15E162739EDAA003C9ADF /* Tile.swift in Sources */,
