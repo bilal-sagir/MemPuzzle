@@ -10,7 +10,7 @@ It's a memory game :) Purpose of it to practice Swift Language and its concepts 
 
 # DEMO
 
-[Demo](https://user-images.githubusercontent.com/93740120/149662896-8f06a3c6-8f9b-40fd-86d7-c951e2e61616.mp4)
+![Demo](https://user-images.githubusercontent.com/93740120/149662896-8f06a3c6-8f9b-40fd-86d7-c951e2e61616.mp4)
 
 # Screenshots
 
